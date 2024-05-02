@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wraper">
+
+    
+    <div class="topbtm">
+        <div class="inpclr">
+            <label  for="colorPicker">Pen Color</label>
+            <input class="clorpicker" type="color" id="colorPicker" value="#000000">
+        </div>
+        <div class="inpclr">
+            <label  for="colorPicker">Background Color</label>
+            <input class="clorpicker" type="color" id="bgColorPicker" value="#ffffff">
+        </div>
+        
+    </div>
+    <div class="container">
+        <canvas id="whiteboard" width="800" height="400"></canvas>
+    </div>
+    <div class="topbtm">
+        <button id="downloadBtn" class="button-50">Save & Download</button>
+        <button id="resetBtn" class="button-50">Reset Canvas</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
